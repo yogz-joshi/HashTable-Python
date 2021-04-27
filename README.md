@@ -18,7 +18,7 @@ Function Definitions:
    Funtion __init__:
     Var used:- ROW=10 (Total assesse), COL=100(Maximum PAN with same assesse code),arr= 2D array[COL*ROW]
     
-   Function get_hash:
+   Function get_hash(key,N):
     Var Used:- key= input to hash function,N= Integer for modulo function (here ROW or COL)
     
    Function __setitem__:
@@ -28,11 +28,11 @@ Function Definitions:
    Function __getitem__:
     Var Used:- Key = Input search PAN or Assesse,result_arr= empty list,text= text to be returned as output
   
-3-Function upload:
+3-Function upload():
     Package used: tkinter
     Var used: filename= File Directry name to be returned by function.
     
-4-Function get_file_type:
+4-Function get_file_type(filename):
     Var used :- filename= File directory name.
     
     
